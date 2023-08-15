@@ -10,7 +10,4 @@ Implemented and executed post-training static quantization techniques on a ResNe
 
 Employed state-of-the-art static quantization methods to convert full-precision weights and activations into lower bit-width representations, effectively reducing model size while maintaining accuracy.
 
-  
 Here significant decreases in model size while increasing speed. Note that quantization is currently only supported for CPUs, so we will be utilizing GPUs / CUDA only for training and CPU for testing. Furthermore, while using complex dataset the accuracy might decrease upon quantization. By using a quantization configuration
-
-
