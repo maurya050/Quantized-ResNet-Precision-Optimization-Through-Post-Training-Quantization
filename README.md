@@ -1,8 +1,5 @@
 # ResNet Quantization: Faster Inference with Post-Training Quantization
 Implemented and executed post-training static quantization techniques on a ResNet architecture to optimize model performance, reduce memory footprint, and enhance inference speed.
-
-#### For Resnet-18 Model took ref. from:
- https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
  
 ## Introduction:
 In this project, we utilize post-training static quantization to optimize the ResNet18 architecture on the MNIST dataset. Quantization is a technique that converts the full-precision weights and activations of a model into lower bit-width representations. This leads to a significant reduction in model size and a boost in inference speed. However, it's important to note that quantization can potentially result in a decrease in accuracy, especially when applied to complex datasets.
@@ -34,6 +31,9 @@ But when model is quantized while testing addition operation is replaced with Fl
 ### Result:
 - After quantization, you can observe the reduction in model size and increased inference speed during testing on a CPU. The accuracy may vary based on the quantization settings and the complexity of the dataset.
 
-## Acknowledgments:
+### Acknowledgments:
 - The ResNet18 architecture and quantization techniques are inspired by the PyTorch documentation and relevant research papers.
 - The MNIST dataset was used for this project.
+
+#### For Resnet-18 Model took ref. from:
+ https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
