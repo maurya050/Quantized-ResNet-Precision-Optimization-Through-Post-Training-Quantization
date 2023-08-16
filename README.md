@@ -29,7 +29,7 @@ model.qconfig = torch.quantization.get_default_qconfig('fbgemm')
 
 - *In this project, we employ the **torch.quantization.get_default_qconfig('fbgemm')** configuration for quantizing our model. This step is a crucial part of the post-training static quantization process.*
 
-### Note
+#### Note:
 Training uses resnet model as is with addition operation and floating point inputs / outputs.
 But when model is quantized while testing addition operation is replaced with FloatFunction and the inputs / outputs are quantized/dequantized.
 
