@@ -15,7 +15,7 @@ Employed state-of-the-art static quantization methods to convert full-precision 
 Here, you will see significant decreases in model size while increasing speed. Note that quantization is currently only supported for CPUs, so we will be utilizing GPUs(CUDA) only for training purposes and CPU for testing purposes. Here, we are using the MNIST dataset. But furthermore, while using a complex dataset the accuracy might decrease upon quantization. By using a quantization configuration.
 
 ## Introduction:
-- In this project, we utilize post-training static quantization to optimize the ResNet18 architecture on the MNIST dataset. Quantization is a technique that converts the full-precision weights and activations of a model into lower bit-width representations. This leads to a significant reduction in model size and a boost in inference speed. However, it's important to note that quantization can potentially result in a decrease in accuracy, especially when applied to complex datasets.
+In this project, we utilize post-training static quantization to optimize the ResNet18 architecture on the MNIST dataset. Quantization is a technique that converts the full-precision weights and activations of a model into lower bit-width representations. This leads to a significant reduction in model size and a boost in inference speed. However, it's important to note that quantization can potentially result in a decrease in accuracy, especially when applied to complex datasets.
 
 ## Quantization Configuration:
 <kbd>
