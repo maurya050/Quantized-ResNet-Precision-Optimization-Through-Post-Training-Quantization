@@ -25,6 +25,7 @@ model.qconfig = torch.quantization.get_default_qconfig('fbgemm')
 
 </div>
 </kbd>
+
 - *In this project, we employ the **torch.quantization.get_default_qconfig('fbgemm')** configuration for quantizing our model. This step is a crucial part of the post-training static quantization process.*
 
 ### Note
